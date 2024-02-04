@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <p>Мой первый параграф - в html!</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum aut quam minima ab quo. Ullam qui voluptate esse facere enim, officia maxime unde itaque earum et, veniam placeat architecto necessitatibus.</p>
+    <br>
+    <h3>Оттипографить текст:</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum aut quam minima ab&nbsp;quo. Ullam qui voluptate esse facere enim, officia maxime unde itaque earum&nbsp;et, veniam placeat architecto necessitatibus.</p>
+    <hr>
+    <h3>Типограф:</h3>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Типограф помогает автоматически расставить неразрывные пробелы, исправить мелкие <br>
+        опечатки, привести кавычки к правильному виду, заменить дефисы на тире в нужных местах. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Можно выбирать любой понравившийся типограф. <br>
+        1. Типограф 1. <br>
+        2. Типограф 2. <br>
+        3. Типограф 3. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Принцип работы типографа — простой. Нужно выделить весь html-код с текстом, который вы <br>
+        создали, скопировать его, добавить в типограф и нажать клавишу «типографировать». Далее <br>
+        заменяем всё содержимое на уже оттипографированный код.
+        </p>
+    <br>
+    <img src="./pictures/book.png" width="50" height="50" alt="Книга">
+    <a href="./contacts.html">Контакты</a>
+    <br>
+    <h3>Спецсимволы:</h3>
+    &copy;
+    <br>
+    <br>
+    &quot; и &quot;
+    <br>
+    <br>
+    &quot; и &raquo;
+    <br>
+    <br>
+    &nbsp; &nbsp; космос
+    <br>
+    <br>
+    &lt; и &gt;
+    <br>
+    <br>
+    &prime; 356298
+    <br>
+    <br>
+    <a href="https://www.artlebedev.ru/typograf/">Типограф</a>
+
+    <h3>Комментарии:</h3>
+    <p> В HTML-документах можно оставить какой-либо комментарий, например, название части <br>
+        страницы. Это не отобразится в браузере. Но любой желающий сможет увидеть этот текст, если <br>
+        воспользуется функцией «просмотр кода страницы» в любом браузере. <br>
+        Комментарии применяются для того, чтобы не отображать теги в браузере. Это может <br>
+        пригодиться при редактировании веб-сать целые блоки кода. <br>
+        Пример:
+        <!--Текст, который не будет отображаться на сайте-->
+        <p>Текст основной части сайта</p>
+    </p>
+    <h3>Основные теги оформления текст:</h3>
+    <p> Заголовки <br>
+        Как и в газетах и журналах, в HTML-странице любая статья или новость должна начинаться с <br>
+        заголовка. Предусмотрено 6 уровней заголовков: первый из них будет отображен самым <br>
+        крупным шрифтом, а далее чем выше уровень, тем меньше будет размер шрифта. <br>
+        .Для отображения заголовков существует тег <h> и указывается цифра от 1 до 6, которая <br>
+        соответствует уровню заголовка. Тег заголовка – парный, не забудьте его закрыть.</p>
+    <h1>Заголовок первого уровня</h1>
+        <h2>Заголовок второго уровня</h2>
+        <h3>Заголовок третьего уровня</h3>
+        <h4>Заголовок четвертого уровня</h4>
+        <h5>Заголовок пятого уровня</h5>
+        <h6>Заголовок шестого уровня</h6>
+        <br>
+        <h3>Параграфы:</h3>
+        <p> После заголовка обычно следует какой-нибудь текст, который необходимо заключать в <br>
+            параграфы, или абзацы. При составлении документа выделяйте блоки текста в отдельные <br>
+            параграфы, как это сделано в книгах – в противном случае может получиться сплошной текст, <br>
+            который очень трудно будет читать посетителю сайта. <br>
+            В HTML для параграфов используется парный тег <p>, и внутри него помещается тот текст, <br>
+            который нужно отобразить. Пример: <br>
+            <p>Здесь мы напишем первый параграф</p>
+        </p>
+        <br>
+        <h3>Теги выделения текста:</h3>
+        <p>Описание в редакторе</p>
+        <p> Иногда необходимо выделить слово, словосочетание, предложение или целый участок текста, <br>
+            чтобы привлечь внимание читателя или поискового робота. Чтобы это сделать, можно <br>
+            выделить фрагмент жирным, курсивом или подчеркнуть. <br>
+            Аккуратнее с подчеркиванием текста: по стандартам принято, что подчеркнуты гиперссылки, и <br>
+            многие пользователи уже настолько к этому привыкли, что, видя подчеркнутый текст, хотят <br>
+            «кликнуть» по этому участку текста, ожидая перехода на другую страницу. <br>
+            Теги b и strong внешне делают одно и то же: выделяют текст полужирным. Разница в том, <br>
+            что strong указывает на важность текста, а b просто делает текст полужирным. Так, текст в <br>
+            тегах strong устройство для чтения текста вслух будет выделять интонацией, а b – нет. <br>
+            Аналогично с тегами em и i, делающими текст курсивным: em указывает на важность <br>
+            текста, а i - нет. <br>
+            small уменьшает размер шрифта на единицу по отношению к обычному тексту. <br>
+            sub используется для создания нижних индексов. Сдвигает текст ниже уровня строки, <br>
+            уменьшая его размер. <br>
+            sup используется для создания степеней и верхних индексов. Сдвигает текст выше уровня <br>
+            строки, уменьшая его размер. . <br>
+            del перечеркивает текст. Используется для выделения текста, удаленного из документа. <br>
+            code служит для выделения фрагментов программного кода. Отображается моноширинным
+            шрифтом. <br>
+            pre позволяет вывести текст на экран, сохранив изначальное форматирование. Пробелы и <br>
+            переносы строк при этом не удаляются. Не нужно использовать данный тег постоянно, так как <br>
+            то изображение, которое вы видите в редакторе кода, может отличаться от того что вы увидите <br>
+            в браузере, плюс текст будет не адаптивен. <br>
+            q используется для выделения коротких цитат. Браузерами заключается в кавычки. <br>
+            </p>
+        <h1>Автомобиль</h1>
+        <b>Автомобиль - не важный текс</b>
+        <br>
+        <strong>Автомобиль - указывает на важность текста</strong>
+        <br>
+        <i>Автомобиль - не важный текст</i>
+        <br>
+        <em>Автомобиль - важный текст</em>
+        <br>
+        <small>Автомобиль</small>
+        <br>
+        <code>
+            int a = 1; <br>
+            int b = 2; <br>
+        </code>
+        <q>q используется для выделения коротких цитат. Браузерами заключается в кавычки</q>
+        <br>
+        <del>Автомобиль</del>
+        <br>
+        <q><pre>
+        pre позволяет вывести текст на экран, сохранив изначальное форматирование. Пробелы и 
+        переносы строк при этом не удаляются. Не нужно использовать данный тег постоянно, так как 
+        то изображение, которое вы видите в редакторе кода, может отличаться от того что вы увидите 
+        в браузере, плюс текст будет не адаптивен. 
+        </pre></q>
+        <br>
+        <p>5<sub>2</sub></p>
+        <p>5 <sup>2</sup></p>
+        <h3>Списки:</h3>
+        <p> Списки в HTML-документах бывают двух видов: маркированные и нумерованные. <br>
+            Отличаются они тем, что у маркированных элементы списка начинаются с точек (маркеров), <br>
+            а у нумерованного – с цифр или букв.</p>
+        <p>Структура маркированного списка:</p> 
+        <ul>
+            <li>Первый элемент списка</li>
+            <li>Второй элемент списка</li>
+            <li>Третий элемент списка</li>
+        </ul>
+        <p>Структура нумерованного списка:</p>
+        <ol>
+            
+            <li>Первый элемент списка</li>
+            <li>Второй элемент списка</li>
+            <li>Третий элемент списка</li>
+        </ol>
+        <pre>
+        Из примеров видим — структура обоих типов списков одинаковая. Единственное различие в
+        том, что в случае с маркированным списком контейнер будет называться ul, а в
+        нумерованном — ol. В нумерованном списке иногда требуется начать список с какой-нибудь
+        определённой цифры или буквы. Для этого существует атрибут start. В его значении
+        указывается, с какого элемента будет начинаться список. В списках есть возможность менять
+        вид маркеров. Например, арабские цифры изменить на римские, либо вообще убрать маркеры.
+        </pre>
+    <h3>Структура вложенного списка:</h3>
+    <ol>
+        <li>Первый элемент списка</li>
+        <li>Второй элемент списка
+            <ul>
+                <li>Первый элемент вложенного списка</li>
+                <li>Второй элемент вложенного списка</li>
+                <li>Третий элемент вложенного списка</li>
+            </ul>
+        </li>
+        <li>Третий элемент списка</li>
+    </ol>
+    <pre>
+        Вложенные списки предназначены для организации сложной иерархической структуры текста,
+        обычно юридических или технических документов. Такие списки используются для создания
+        многоуровневых меню и навигации по сайту.
+    </pre>
+    <h1>Гиперссылки:</h1>
+    <p> Гиперссылка — активный элемент (текст, изображение, кнопка и т. п.) одного документа. При <br>
+        нажатии на неё происходит переход к другому документу или к его элементу. Документы, <br>
+        содержащие гиперссылки, называются гипертекстовыми. Гиперссылка может быть добавлена к <br>
+        любому элементу гипертекстового документа и обычно выделяется графически. <br>
+        В HTML-документах текстовые ссылки по умолчанию выделяются синим цветом. При <br>
+        наведении на них курсора мыши в окне браузера меняют цвет или выделяются <br>
+        подчёркиванием. Посещённая ранее ссылка обычно выделяется цветом, отличным от цвета <br>
+        непосещённой ссылки. <br>
+        Тег ссылки называется - a. У него есть обязательный атрибут href, в значении которого мы <br>
+        указываем на файл, место в документе или страницу другого сайта, куда хотим перейти. В <br>
+        содержимом этого тега нужно написать текст, который увидит пользователь.
+    <h2>Виды ссылок:</h2>
+    <ol>
+        <li>Относительные ссылки.</li>
+        <li>Абсолбтные ссылки.</li>
+        <li>Якоря.</li>
+    </ol>
+    <h3>Относительные ссылки:</h3>
+    Используются для перемещения внутри документа или сайта. <br>
+    <br>
+    <a href="./files/file_name.html">текст ссылки, который видит пользователь</a>
+    <h3>Абсолютные ссылки:</h3>
+    Используются для перехода на страницы внешнего сайта. Для этого в значении атрибута href <br>
+    нужно указать полный путь до той страницы, на которую мы хотим перейти, включая тип протокола. <br>
+    <br>
+    <a href="https://mail.ru" target="_blank">Cтраница mail.ru откроется в новой вкладке</a>
+    <pre>
+У тега ссылки существует атрибут target. Если указать target="_blank", то страница откроется в
+новой вкладке браузера. Раньше это значение официально не поддерживалось в HTML. Но
+люди всё равно использовали его, поскольку оно работало. Теперь в HTML5 это полностью
+поддерживается.
+    </pre>
+    Когда использовать target="_blank":
+    <ul>
+        <li>если нужно открыть сторонний ресурс и не потерять страничку вашего сайта;</li>
+        <li>если пользователь работает над чем-то, что может потеряться при изменении текущей страницы;</li>
+        <li>если ссылка ведёт на сторонний ресурс в интернете.</li>
+    </ul>
+    Когда не использовать target="_blank":
+    <ul>
+        <li>в меню, иначе его пункты будут открываться в новых вкладках;</li>
+        <li>из-за личных предпочтений;</li>
+        <li>если клиент думает, что так будет лучше.</li>
+    </ul>
+    <h3>Якоря:</h3>
+    Пример работы якоря: <br>
+    <br>
+    <a href="#p10">Прочитать 10 параграф</a>
+    <p id="p0">Text №0 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione esse rerum, velit fugit quod laborum omnis facere, repellat sit perferendis modi ea. Tenetur officiis eius a veritatis molestias ab alias.</p>
+    <p id="p1">Text №1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptatem quisquam voluptates expedita omnis atque quaerat itaque aliquam provident mollitia architecto maxime animi commodi minima nesciunt inventore ratione, vero, consequuntur harum, nisi explicabo voluptas recusandae accusantium. Error cum perferendis, nemo esse quibusdam inventore omnis neque illum ad praesentium recusandae earum.</p>
+    <p id="p2">Text №2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta, pariatur illum voluptates nostrum quisquam perspiciatis sed, debitis in fugiat dolores soluta molestiae aspernatur, reprehenderit magnam aliquid laboriosam non suscipit. Officia magnam dolorum id sed optio reprehenderit distinctio nemo, illum. Tempora impedit et explicabo sequi voluptate architecto similique hic illum.</p>
+    <p id="p3">Text №3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore voluptatem maxime laboriosam, facere assumenda minima nostrum dolor sint consequuntur amet, esse corporis illum similique obcaecati dolore quis. Doloremque incidunt ex eos earum voluptatum, ullam provident rerum soluta? Dicta consequatur odio obcaecati minima natus quam recusandae rem quisquam hic veniam.</p>
+    <p id="p4">Text №4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit quo iusto molestias maiores expedita eos cumque sit, possimus hic in id explicabo quis iure cum illum tempore quia, illo doloribus perferendis vel incidunt provident rem. Quos accusantium excepturi eos, repellat odit iste natus eum accusamus, sed, eaque voluptate fuga!</p>
+    <p id="p5">Text №5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia similique debitis totam magni voluptatibus fugiat, commodi ipsam dolor voluptatem, molestiae nobis, beatae minima deserunt nihil! Et accusamus, fugit alias ut minus facere, atque ab labore corrupti suscipit autem nemo sapiente deleniti recusandae dolorum, ea nisi. Dolores mollitia ipsa, cupiditate facilis?</p>
+    <p id="p6">Text №6 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro soluta iusto quaerat vitae ullam reiciendis doloribus corrupti eius. Illo praesentium incidunt delectus a est, facere cumque sed expedita repellendus suscipit aut distinctio necessitatibus omnis at nemo ratione voluptatum voluptates adipisci nihil ducimus. Explicabo distinctio id, illo reiciendis voluptates esse neque.</p>
+    <p id="p7">Text №7 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam praesentium quasi optio ad pariatur totam est, earum ratione. Sunt, assumenda possimus, excepturi harum eveniet neque eligendi, quae placeat nesciunt nemo impedit. Autem cum mollitia in reiciendis voluptas deleniti dolorum odio, nulla veniam! Suscipit quis reprehenderit consectetur, assumenda quaerat nostrum.</p>
+    <p id="p8">Text №8 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus accusantium aliquam excepturi aut voluptas numquam pariatur voluptatum soluta necessitatibus perferendis ad vel, quia expedita minima minus maxime rerum ipsa at quod consequatur eius facere beatae iste. Accusantium quod natus amet numquam dolorem. Repudiandae, quae! Accusamus incidunt deserunt quisquam unde, neque.</p>
+    <p id="p9">Text №9 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio porro tempora dignissimos cumque suscipit atque nisi, est voluptates consequuntur ipsam, necessitatibus ad recusandae, aspernatur adipisci sunt! Repudiandae molestias iure accusantium. Beatae nisi illum, esse velit. Incidunt magnam illo laboriosam magni voluptates a perferendis, dignissimos. Hic ex et dolore dolor a!</p>
+    <p id="p10">Text №10 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta labore nemo molestias laborum aliquam deserunt facilis distinctio laboriosam ut voluptatem eius omnis molestiae ratione quidem minus, placeat impedit cumque beatae ipsam consectetur est architecto nulla perferendis. Iste dignissimos, quidem distinctio qui ipsa, repellendus repellat hic quam, et, dolor necessitatibus. Rerum.</p>
+    </p>
+    <h2>Изображения</h2>
+    <p>
+        В настоящее время в веб-документах используются четыре формата изображений: jpeg, gif, png, svg. <br>
+        Рассмотрим каждый из них подробнее. 
+    <h3><i>JPEG</i></h3>
+    <b>Плюсы:</b>
+    <ul>
+        <li>небольшой размер файла;</li>
+        <li>поддерживает 16 млн цветов;</li> 
+        <li>можно управлять качеством изображения при сохранении.</li> 
+    </ul>
+    <b>Минусы:</b>
+    <ul>
+        <li>при сжатии размеров теряется качество;</li>
+        <li>не поддерживает прозрачность.</li>
+    </ul>
+    <h3><i>GIF</i></h3>
+    <b>Плюсы:</b>
+    <ul>
+        <li> поддерживает анимацию;</li>
+        <li> поддерживает прозрачность;</li>
+        <li> при сжатии не теряет в качестве.</li>
+    </ul>    
+    <b>Минусы:</b>
+    <ul>
+        <li> количество цветов до 256.</li>
+    </ul>
+    <h3><i>PNG</i></h3>
+    Растровый графический формат PNG, становясь популярнее, появился в 1995 году как замена <br>
+    GIF. Формат PNG подразделяется на форматы PNG-8 — аналог формата GIF, кроме того, что PNG-8 <br>
+    не поддерживает анимацию — и PNG-32.
+    <h3><i>PNG – 8</i></h3>
+    <b>Плюсы:</b>
+    <ul>
+        <li> поддерживает прозрачность;</li>
+        <li> при сжатии не теряет в качестве.</li>
+    </ul>
+    <b>Минусы:</b>
+    <ul>
+        <li> количество цветов до 256.</li>
+    </ul>
+    <h3><i>PNG – 32</i></h3>
+    <b>Плюсы:</b>
+    <ul>
+        <li> При сжатии не теряет в качестве.</li>
+        <li> Использует 16 млн цветов.</li>
+        <li> Плавный переход от прозрачной области к цветной.</li>
+    </ul>
+    <b>Минусы:</b>
+    <ul>
+        <li> Большой размер файла.</li>
+    </ul>
+    <h3><i>SVG</i></h3>
+    SVG – формат векторной графики. Файлы SVG можно читать и редактировать (если есть <br>
+    некоторые навыки) при помощи обычных текстовых редакторов. Есть возможность увеличить <br>
+    любую часть изображения SVG без потери качества. <br>
+    Растровая графика состоит из разноцветных точек, а векторная — из геометрических фигур. <br>
+    Примечательно то, что векторную графику можно легко перевести в растровую. <br>
+    Доступно использование растровой графики в SVG-документах. Имеется возможность <br>
+    вставлять элементы с изображениями в форматах PNG, GIF или JPG. Текст в графике SVG — <br>
+    это текст, а не изображение, поэтому его можно выделять и копировать. Он индексируется <br>
+    поисковыми машинами, не нужно создавать дополнительные метафайлы для поисковых роботов. <br>
+    <br>
+    <b>Плюсы:</b>
+    <ul>
+        <li> небольшие размеры файлов, отличное сжатие;</li>
+        <li> возможно увеличить любую часть изображения SVG без потери качества.</li>
+    </ul>
+    <b>Минусы:</b>
+    <ul>
+        <li> если скопировать фоновое изображение в этом формате, получится большой размер
+    файла (подходит для иконок на сайте);</li>
+        <li> сложность использования.</li>
+    </ul>
+    <h3>Вывод:</h3>
+    Для сохранения фотографий с чёткими краями лучше всего подходит формат JPEG, так как в <br>
+    нём размер файла получается небольшим. Для анимированных изображений единственный <br>
+    вариант — формат GIF. А для сохранения качественных изображений, в которых используется <br>
+    прозрачность, лучше всего подойдёт формат PNG-32. Векторной графике подходит SVG. 
+    </p>
+    <h2>Загрузка изображений на страницу</h2>
+    <p> 
+        Для отображения изображений на странице есть тег img, он одиночный. У него имеется <br>
+        обязательный атрибут src, в значении которого указывают путь к изображению. Этот путь может <br>
+        быть как относительным, так и абсолютным. Второй обязательный атрибут — alt. <br>
+        Атрибут alt означает альтернативный текст. Используется, чтобы: <br>
+    <ol>
+        <li>Если картинка не загрузится на страницу, пользователь увидит текст, который указали 
+        в этом атрибуте.</li> 
+        <li>Альтернативный текст нужен при продвижении сайта. В нём можно указать ключевые 
+        слова, и тогда это изображение будет участвовать в поиске по картинкам.</li>
+    </ol>
+    <b>Это моя фотка</b>
+    <br>
+    <img src="./pictures/my_foto.jpg" alt="Это моя фотография" title="это моя фотография" width="300"> <br>
+    <br>
+        У тега img можно указать дополнительные атрибуты. <br>
+        title универсален, его можно использовать практически для любого тега. То, что вы напишете в <br>
+        значении, будет выводиться в виде всплывающей подсказки, при наведении на изображение. <br>
+        Любому изображению можно задать ширину и высоту, указав эти значения в атрибутах width и <br>
+        height соответственно. При помощи этих атрибутов изображение лучше не увеличивать, иначе <br>
+        получится плохое качество. Если задать ширину и высоту изображению, браузер при загрузке <br>
+        страницы будет сразу выделять заданную область под картинку. Эти атрибуты используются <br>
+        редко, ведь вся стилизация находится в css. <br>
+    <br>
+        <b>Важно!</b> <i>Всегда храните все изображения в отдельной папке, чтобы знать, где искать то <br>
+        или иное изображение.</i>
+    </p>
+    <b>Это моя фотография</b>
+    <br>
+    <img src="./pictures/my_foto.jpg" alt="Это моя фотография" title="ЭТО МОЁ ФОТО" height="400">
+    <h2>Формы и их элементы</h2>
+    Формы — один из важных элементов любого сайта. Они нужны, чтобы получать от <br>
+    пользователя информацию, отправлять эти данные на сервер, а там уже их обрабатывать. <br>
+    Документ может содержать любое количество форм. Но одновременно на сервер может быть <br>
+    отправлена только одна. По этой причине данные форм должны не зависеть друг от друга. <br>
+    Допускается внутрь контейнера form помещать другие теги. При этом сама форма никак не <br>
+    отображается на веб-странице, видны только её элементы и результаты вложенных тегов. <br>
+    <br>
+    <b>Важно!</b> <i>В html нет возможности реализовать опции форм, для этого используется <br>
+    серверный язык программирования.</i>
+    <h3>Элементы форм:</h3>
+    В HTML существует три основных тега элементов форм:
+    <ol>
+        <li>Тег input <input> в зависимости от значения атрибута type будет выглядеть по-разному и <br>
+            иметь различные значения. Тег input <input> одиночный.</li> <br>
+        <li>Тег textarea <textarea name="текстовая область" id="01" cols="30" rows="3"></textarea> <br>
+            используется, чтобы сформировать многострочное поле ввода для информации. <br>
+            С помощью атрибута cols можно задать ширину этого поля, а с помощью <br>
+            атрибута rows — указать число строк. <br> 
+            Тег textarea <textarea name="" id="02" cols="30" rows="3"></textarea> парный.</li><br>
+        <li>select <select name="Выпадающий список" id="03"></select> представляет собой выпадающий список, 
+            элементы которого указываются в теге option <option value="7777">Элементы выпадающего списка</option>. <br>  
+            У этого тега есть несколько атрибутов. Чтобы сделать возможность выбора нескольких пунктов, <br>
+            нужно задать атрибут multiple, в значении которого указывается multiple. <br>
+            В атрибуте size определяется число строк выпадающего списка. <br>
+            Их увидит пользователь в браузере. Если необходимо, чтобы какой-то из элементов <br>
+            выпадающего списка был выбран, нужно этому элементу в теге option задать атрибут <br>
+            selected. Тег select <select name="ggg" id="05"></select> также парный.</li>
+    </ol>
+    </body>
+</html>
