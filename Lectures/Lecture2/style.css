@@ -1,0 +1,36 @@
+/*class заголовок*/
+.heading {
+    color: blue;
+}
+
+/*class название, титул*/
+.title {
+    background-color: gray;
+}
+
+/**/
+.heading-about {
+    color: orange;
+}
+
+/*class рамка*/
+.border {
+    border-color: green;
+    border-style: double;
+    border-width: 3px;
+    /* или border: 1px solid chocolate;*/
+}
+
+.border_h1 {
+    border: 10px solid chocolate;
+}
+
+/*изменение цвета сингего для всех h3
+h3{
+    color: blue;
+}
+*/
+/*стили с id*/
+#text_id {
+    color: chartreuse;
+}
