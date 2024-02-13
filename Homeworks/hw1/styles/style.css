@@ -22,7 +22,7 @@ a {
 /* 7. Для всех ссылок меню задать класс (придумать логичное название класса) a. color: cornflowerblue; b. font-size: 16px; c. line-height: 20px;
 */
 .menu {
-    color: cornflowerblue;
+      scolor: cornflowerblue;
     font-size: 16px;
     line-height: 20px;
     text-decoration: underline;

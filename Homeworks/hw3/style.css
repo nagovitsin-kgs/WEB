@@ -1,0 +1,21 @@
+/*обнуление стилей*/
+* {
+    margin: 0;
+    padding: 20px;
+    font-family: Arimo, sans-serif;
+}
+/*убрать подчёркивание*/
+a {
+    text-decoration: none;
+}
+/*убрать рамки*/
+button {
+    border: none;
+}
+/* Класс для панели header */
+.heading__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
