@@ -1,21 +1,93 @@
+/*выбрать шрифты скачать путь с гугла и запустить*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
 /*обнуление стилей*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*в теле цвет, шрифт текста от 14 до 20, фон*/
+body {
+    color: white;
+    font: 14px/20px 'Be vietnam Pro', Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+}
+/*убрать подчёркивание, изменение при наведении на ссылку*/
+a {
+    color: black; 
+    text-decoration: none;
+    transition: .4s;
+}
+/*убрать из маркированного списка точки..*/
+ul li {
+    list-style: none;
+}
+/*свойство, чтобы картинка не выпадала за границы*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*для кнопки*/
+button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    /* font: inherit;  */
+    cursor: pointer;
+    transition: .4s;
+}
+
+/*СТИЛИ КЛАССОВ:*/
+
+/*Для горизонтального центрирования:
+text-align: center – центрирует инлайн-элементы в блоке.
+margin: 0 auto – центрирует блок внутри родителя. У блока должна быть указана ширина.*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* header: */
+#header-section {
+    padding: 40px 0 82.71px;
+}
+/* display: flex; делает все дочерние элементы резиновыми — flex , а не инлайновыми или блочными, как было изначально.
+justify-content: space-between; Обычно используется для распределения элементов внутри контейнера с равномерным расстоянием между ними, при этом первый и последний элементы выравниваются по краям контейнера.
+align-items: center; Свойство для выравнивания элементов внутри контейнера по поперечной оси
+Свойство font-weight определяет насыщенность шрифта и может принимать различные значения от 100 до 900. При этом значения можно задавать как числом, так и словами: normal, bold, bolder, lighter
+*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* обнуление стилей
 * {
     margin: 0;
     padding: 20px;
     font-family: Arimo, sans-serif;
 }
-/*убрать подчёркивание*/
+убрать подчёркивание
 a {
     text-decoration: none;
 }
-/*убрать рамки*/
+убрать рамки
 button {
     border: none;
 }
-/* Класс для панели header */
+Класс для панели header
 .heading__bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-}
+} 
+*/
