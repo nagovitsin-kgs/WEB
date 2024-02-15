@@ -62,11 +62,54 @@ align-items: center; Свойство для выравнивания элеме
     align-items: center;
     font-weight: 400;
 }
-
-
-
-
-
+/*размеры блока логотипа, может быть и текст*/
+.header-logo {
+    width: 137px;
+    height: 40px;
+    font-size: 24px;
+}
+/*размер логотипа*/
+.header-logo__img {
+    width: 137px;
+    height: 40px;
+}
+/*навигация гланого меню*/
+.nav-main {
+    margin: auto;
+    padding: 12px 0 11px 0px;
+}
+/**/
+.nav-main__list {
+    display: flex;
+    gap: 30px;
+    /* margin-right: 0; */
+}
+/*...*/
+.nav-main__item {
+    /*...*/
+}
+/*стиль ссылки - цвет*/
+.nav-main__link_text {
+    color: rgb(242, 88, 34);
+}
+/*при наведениии курсора ссылки меняют цвет*/
+.nav-main__link:hover {
+    color: rgb(242, 88, 34);
+}
+/*ссылка галочка*/
+.nav-main__link__checkbox:hover {
+    color: rgb(242, 88, 34);
+}
+/*для всех кнопок одинаковые*/
+.header__button {
+    margin: 0 0 0 34px;
+    padding: 12px 27px 13px 27px;
+    color: white;
+    font-size: 12px;
+    border-radius: 30px;
+    background: rgb(242, 88, 34);
+    
+}
 
 
 /* обнуление стилей
