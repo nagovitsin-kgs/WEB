@@ -8,7 +8,6 @@
 }
 /*в теле цвет, шрифт текста от 14 до 20, фон*/
 body {
-    color: white;
     font: 14px/20px 'Be vietnam Pro', Arial, Helvetica, sans-serif;
     background: rgb(255, 255, 255);
 }
@@ -81,15 +80,14 @@ align-items: center; Свойство для выравнивания элеме
 /**/
 .nav-main__list {
     display: flex;
-    gap: 30px;
-    /* margin-right: 0; */
+    gap: 38px;
 }
 /*...*/
 .nav-main__item {
     /*...*/
 }
 /*стиль ссылки - цвет*/
-.nav-main__link_text {
+.nav-main__link_Home {
     color: rgb(242, 88, 34);
 }
 /*при наведениии курсора ссылки меняют цвет*/
@@ -100,16 +98,42 @@ align-items: center; Свойство для выравнивания элеме
 .nav-main__link__checkbox:hover {
     color: rgb(242, 88, 34);
 }
-/*для всех кнопок одинаковые*/
-.header__button {
+/*кнопка Get Started*/
+.header__button__main {
     margin: 0 0 0 34px;
     padding: 12px 27px 13px 27px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     border-radius: 30px;
     background: rgb(242, 88, 34);
-    
+    font-family: 'Gilroy-SemiBold';
 }
+/*всплывающая кнопка главная*/
+.header__button__main:hover {
+    background-color: rgb(66, 32, 19);
+}
+/*Вторая часть сложная банер...*/
+/*Banner*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* обнуление стилей

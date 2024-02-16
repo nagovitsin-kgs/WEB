@@ -17,7 +17,7 @@
                     <nav class="nav-main">
                         <ul class="nav-main__list">
                             <li class="nav-main__item">
-                                <a class="nav-main__link_text" href="#">Home</a>
+                                <a class="nav-main__link_Home" href="#">Home</a>
                             </li>
                             <li class="nav-main__item">
                                 <a class="nav-main__link" href="#">About Us</a>
@@ -42,10 +42,29 @@
                             </li>
                         </ul>
                     </nav>
-                    <a class="header__button" href="#">Get Started</a>
+                    <a class="header__button__main header__button__main:hover" header__button__main:hover href="#">Get Started</a>
                 </div>
             </div>
         </header>
+        <!-- Banner -->
+        <!-- В main помещают главное содержимое — то, которое больше нигде не повторяется на сайте. Соответственно, второстепенные элементы сюда не входят: шапка сайта, подвал, боковые панели, ссылки навигации, информация об авторских правах, логотипы сайта и поисковые формы, как правило, остаются вне контейнера main.
+        -- Тег section является одним из семантических тегов в HTML5 и используется для группировки связанных контентных элементов на веб-странице. Он позволяет разделять контент страницы на логические секции, при этом каждая секция может содержать заголовок, подзаголовок и другие элементы. -->
+        <main>
+            <section id="banner-section">
+                <div class="container">
+                    <div class="banner">
+                        <h2 class="banner__header">SEO & Digital Marketing For Your Website.</h2>
+                        <p class="banner__text">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+                        <div class="banner-links-wrap">
+                            <a class="banner-button__link" href="">Start Now</a>
+                            <img class="banner-buttton__img" src="./images/Polygon.png" alt="Polygon">
+                            <button class="banner__button">Watch Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img__main"></div>
+            </section>
+        </main>
     </body>
 </html>
 <!-- _________________________________________ -->
