@@ -8,12 +8,13 @@
 }
 /*в теле цвет, шрифт текста от 14 до 20, фон*/
 body {
-    font: 14px/20px 'Be vietnam Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Be vietnam Pro', Arial, Helvetica, sans-serif;
     background: rgb(255, 255, 255);
+    font-weight: 400;
 }
 /*убрать подчёркивание, изменение при наведении на ссылку*/
 a {
-    color: black; 
+    color: rgb(0, 0, 0); 
     text-decoration: none;
     transition: .4s;
 }
@@ -59,18 +60,18 @@ align-items: center; Свойство для выравнивания элеме
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 /*размеры блока логотипа, может быть и текст*/
 .header-logo {
     width: 137px;
     height: 40px;
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 /*размер логотипа*/
 .header-logo__img {
-    width: 137px;
-    height: 40px;
+    /* width: 137px; */
+    /* height: 40px; */
 }
 /*навигация гланого меню*/
 .nav-main {
@@ -107,19 +108,80 @@ align-items: center; Свойство для выравнивания элеме
     border-radius: 30px;
     background: rgb(242, 88, 34);
     font-family: 'Gilroy-SemiBold';
+    width: 120px;
+    text-align: center;
 }
 /*всплывающая кнопка главная*/
 .header__button__main:hover {
     background-color: rgb(66, 32, 19);
 }
 /*Вторая часть сложная банер...*/
+
 /*Banner*/
+#banner-section {
+    position: relative;
+    padding-bottom: 162.45px;
+}
+.banner {
+    max-width: 522px;
+    padding: 1.29px 0 0.45px 0;
+}
+.banner__header {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+}
+.banner__text {
+    font-family: 'Gilroy-Medium';
+    margin: 17px 56px 37px 0;
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    line-height: 24px;
 
-
-
-
-
-
+}
+.banner-links-wrap {
+    margin: 0 218px 50px 2px;
+    font-size: 15px;
+    /* max-width: 302px; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Gilroy-Bold';
+}
+.banner-button__link {
+    color: rgb(255, 255, 255);
+    padding: 15px 36px 16px 35px;
+    margin: 0 72px 0 0;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+}
+.banner__button__main {
+    padding: 15px 0 16px 0;
+    color: rgb(170, 170, 170);
+    
+    
+}
+/* Это будет позиционирование в блоке div___________________________ */
+/*фото главное, находиться вне контейнера - будем позиционировать относительно этого блока #banner-section*/
+.banner-img__main {
+    position: absolute;
+    width: 54%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+/*чтобы картинку можно было двигать:*/
+.banner-img__main::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: url(./images/pngfind_1.png) no-repeat;
+}
 
 
 
