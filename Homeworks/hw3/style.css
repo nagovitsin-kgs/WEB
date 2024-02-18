@@ -120,6 +120,7 @@ align-items: center; Свойство для выравнивания элеме
 /*Banner*/
 #banner-section {
     position: relative;
+    overflow: hidden;
     padding-bottom: 162.45px;
 }
 .banner {
@@ -156,12 +157,11 @@ align-items: center; Свойство для выравнивания элеме
     border-radius: 50px;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
     background: rgb(242, 88, 34);
+    text-align: center;
 }
 .banner__button__main {
     padding: 15px 0 16px 0;
     color: rgb(170, 170, 170);
-    
-    
 }
 /* Это будет позиционирование в блоке div___________________________ */
 /*фото главное, находиться вне контейнера - будем позиционировать относительно этого блока #banner-section*/
@@ -182,41 +182,20 @@ align-items: center; Свойство для выравнивания элеме
     right: 0;
     background: url(./images/pngfind_1.png) no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* обнуление стилей
-* {
-    margin: 0;
-    padding: 20px;
-    font-family: Arimo, sans-serif;
+/*footer*/
+#footer-section {
+    padding-bottom: 96px;
 }
-убрать подчёркивание
-a {
-    text-decoration: none;
-}
-убрать рамки
-button {
-    border: none;
-}
-Класс для панели header
-.heading__bar {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-} 
-*/
+}
+.footer-img-wrap {
+    padding: 97px 0 96px 0;
+}
+.footer-logo_img {
+    width: 160px;
+    height: 50px;
+    gap: 48px;
+}
