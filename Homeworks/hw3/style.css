@@ -1,32 +1,38 @@
 /*выбрать шрифты скачать путь с гугла и запустить*/
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
+
 /*обнуление стилей*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*в теле цвет, шрифт текста от 14 до 20, фон*/
 body {
     font-family: 'Be vietnam Pro', Arial, Helvetica, sans-serif;
     background: rgb(255, 255, 255);
     font-weight: 400;
 }
+
 /*убрать подчёркивание, изменение при наведении на ссылку*/
 a {
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: .4s;
 }
+
 /*убрать из маркированного списка точки..*/
 ul li {
     list-style: none;
 }
+
 /*свойство, чтобы картинка не выпадала за границы*/
 img {
     max-width: 100%;
     max-height: 100%;
 }
+
 /*для кнопки*/
 button {
     display: block;
@@ -42,15 +48,18 @@ button {
 /*Для горизонтального центрирования:
 text-align: center – центрирует инлайн-элементы в блоке.
 margin: 0 auto – центрирует блок внутри родителя. У блока должна быть указана ширина.*/
+
+/* header: */
+#header-section {
+    padding: 40px 0 82.71px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
 }
-/* header: */
-#header-section {
-    padding: 40px 0 82.71px;
-}
+
 /* display: flex; делает все дочерние элементы резиновыми — flex , а не инлайновыми или блочными, как было изначально.
 justify-content: space-between; Обычно используется для распределения элементов внутри контейнера с равномерным расстоянием между ними, при этом первый и последний элементы выравниваются по краям контейнера.
 align-items: center; Свойство для выравнивания элементов внутри контейнера по поперечной оси
@@ -60,45 +69,53 @@ align-items: center; Свойство для выравнивания элеме
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* font-weight: 400; */
 }
+
 /*размеры блока логотипа, может быть и текст*/
 .header-logo {
     width: 137px;
     height: 40px;
     /* font-size: 24px; */
 }
+
 /*размер логотипа*/
 .header-logo__img {
     /* width: 137px; */
     /* height: 40px; */
 }
+
 /*навигация гланого меню*/
 .nav-main {
     margin: auto;
     padding: 12px 0 11px 0px;
 }
+
 /**/
 .nav-main__list {
     display: flex;
     gap: 38px;
 }
+
 /*...*/
 .nav-main__item {
     /*...*/
 }
+
 /*стиль ссылки - цвет*/
 .nav-main__link_Home {
     color: rgb(242, 88, 34);
 }
+
 /*при наведениии курсора ссылки меняют цвет*/
 .nav-main__link:hover {
     color: rgb(242, 88, 34);
 }
+
 /*ссылка галочка*/
 .nav-main__link__checkbox:hover {
     color: rgb(242, 88, 34);
 }
+
 /*кнопка Get Started*/
 .header__button__main {
     margin: 0 0 0 34px;
@@ -111,10 +128,12 @@ align-items: center; Свойство для выравнивания элеме
     width: 120px;
     text-align: center;
 }
+
 /*всплывающая кнопка главная*/
 .header__button__main:hover {
     background-color: rgb(66, 32, 19);
 }
+
 /*Вторая часть сложная банер...*/
 
 /*Banner*/
@@ -123,14 +142,17 @@ align-items: center; Свойство для выравнивания элеме
     overflow: hidden;
     padding-bottom: 162.45px;
 }
+
 .banner {
     max-width: 522px;
     padding: 1.29px 0 0.45px 0;
 }
+
 .banner__header {
     font-family: 'Gilroy-Bold';
     font-size: 60px;
 }
+
 .banner__text {
     font-family: 'Gilroy-Medium';
     margin: 17px 56px 37px 0;
@@ -139,6 +161,7 @@ align-items: center; Свойство для выравнивания элеме
     line-height: 24px;
 
 }
+
 .banner-links-wrap {
     margin: 0 218px 50px 2px;
     font-size: 15px;
@@ -148,6 +171,7 @@ align-items: center; Свойство для выравнивания элеме
     align-items: center;
     font-family: 'Gilroy-Bold';
 }
+
 .banner-button__link {
     color: rgb(255, 255, 255);
     padding: 15px 36px 16px 35px;
@@ -159,10 +183,12 @@ align-items: center; Свойство для выравнивания элеме
     background: rgb(242, 88, 34);
     text-align: center;
 }
+
 .banner__button__main {
     padding: 15px 0 16px 0;
     color: rgb(170, 170, 170);
 }
+
 /* Это будет позиционирование в блоке div___________________________ */
 /*фото главное, находиться вне контейнера - будем позиционировать относительно этого блока #banner-section*/
 .banner-img__main {
@@ -172,6 +198,7 @@ align-items: center; Свойство для выравнивания элеме
     top: 0;
     right: 0;
 }
+
 /*чтобы картинку можно было двигать:*/
 .banner-img__main::before {
     position: absolute;
@@ -182,18 +209,22 @@ align-items: center; Свойство для выравнивания элеме
     right: 0;
     background: url(./images/pngfind_1.png) no-repeat;
 }
+
 /*footer*/
 #footer-section {
     padding-bottom: 96px;
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-img-wrap {
     padding: 97px 0 96px 0;
 }
+
 .footer-logo_img {
     width: 160px;
     height: 50px;

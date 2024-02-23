@@ -1,0 +1,120 @@
+/* ___fonts___: */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/* ___main tags___: */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* общее в теле */
+.body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #FFFFFF;
+}
+
+/* убрать подчёркивание, сделать переход */
+a {
+    color: black;
+    text-decoration: none;
+    transition: .4s;
+}
+
+/* убрать из маркированного списка точки */
+ul li {
+    list-style: none;
+}
+
+/* свойство, чтобы картинка не выпадала за границы */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+/* ___class styles___: */
+
+/* header */
+#header-section {
+    padding: 0;
+}
+
+/* контейнер */
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* заголовок */
+.header {
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 18px 0 19px 231px;
+    width: 111px;
+    height: 38px;
+}
+
+.header-logo__img {
+    width: 44px;
+    height: 38px;
+}
+
+.header-logo-img__btn {
+    padding-bottom: 1px;
+    width: 26px;
+    height: 26.79px;
+}
+
+.nav-main-btn {
+    margin: 26px 240px 20px 0;
+    max-height: 29px;
+}
+
+.nav-main-btn__list {
+    display: flex;
+    gap: 33px;
+}
+
+.nav-main-btn__item {
+    /**/
+}
+
+.nav-main-btn__link {
+    /**/
+}
+
+.nav-main-btn__link__img1 {
+    padding: 4px 0 2px 0;
+    width: 32px;
+    height: 23px;
+}
+
+.nav-main-btn__link__img2 {
+    width: 29px;
+    height: 29px;
+}
+
+.nav-main-btn__link__img3 {
+    width: 32px;
+    height: 29px;
+}
