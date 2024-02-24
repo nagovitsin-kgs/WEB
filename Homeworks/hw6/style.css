@@ -34,13 +34,13 @@ img {
     max-height: 100%;
 }
 
-button {
+/* button {
     display: block;
     border: none;
     background-color: transparent;
     cursor: pointer;
     transition: .4s;
-}
+} */
 
 
 /* ___class styles___: */
@@ -48,6 +48,7 @@ button {
 /* header */
 #header-section {
     padding: 0;
+    background: rgb(241, 228, 230);
 }
 
 /* контейнер */
@@ -117,4 +118,81 @@ button {
 .nav-main-btn__link__img3 {
     width: 32px;
     height: 29px;
+}
+
+/*banner*/
+#banner-section {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 65px;
+    background: rgb(241, 228, 230);
+}
+
+.banner {
+    display: flex;
+    max-width: 800px;
+    gap: 16px;
+    margin-left: 800px;
+    padding-bottom: 65px;
+    background: rgb(241, 228, 230);
+    /* border: 1px solid chocolate; */
+}
+
+.banner-header__img {
+    margin-top: 290px;
+    margin-bottom: 392px;
+    margin-left: 64px;
+    width: 12px;
+    height: 92px;
+}
+
+.banner-header {
+    margin-top: 290px;
+    max-width: 384px;
+    margin-bottom: 380px;
+}
+
+.b-h__text1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.b-h__text2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.b-h__text3 {
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.banner-img-main__photo {
+    /**/
+}
+
+/*фото главное, находиться вне контейнера - будем позиционировать относительно этого блока #banner-section*/
+.banner-img-main {
+
+    background: rgb(241, 228, 230);
+    /* border: 1px solid chocolate; */
+    position: absolute;
+    width: 42%;
+    height: 92.8%;
+    top: 0;
+    right: 0;
+    left: 8.85%;
+}
+
+/*чтобы картинку можно было двигать:*/
+.banner-img-main::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: url(./img/banner_Layer.png) no-repeat;
 }
