@@ -124,7 +124,7 @@ img {
 #banner-section {
     position: relative;
     overflow: hidden;
-    padding-bottom: 65px;
+    /* padding-bottom: 65px; */
     background: rgb(241, 228, 230);
 }
 
@@ -134,7 +134,6 @@ img {
     gap: 16px;
     margin-left: 800px;
     padding-bottom: 65px;
-    background: rgb(241, 228, 230);
     /* border: 1px solid chocolate; */
 }
 
@@ -176,7 +175,7 @@ img {
 /*фото главное, находиться вне контейнера - будем позиционировать относительно этого блока #banner-section*/
 .banner-img-main {
 
-    background: rgb(241, 228, 230);
+    /* background: rgb(241, 228, 230); */
     /* border: 1px solid chocolate; */
     position: absolute;
     width: 42%;
@@ -194,5 +193,67 @@ img {
     height: 100%;
     top: 0;
     right: 0;
-    background: url(./img/banner_Layer.png) no-repeat;
+    background: url(./img/banner_Layer.png) 50%/cover no-repeat;
+}
+
+/*product*/
+#product-section {
+    /* padding-top: 65px; */
+    /* padding-right: 230px; */
+    padding-bottom: 96px;
+    /* padding-left: 230px; */
+    background: rgb(229, 229, 229);
+}
+
+.product-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(4, 360px); */
+    gap: 30px;
+    justify-content: center;
+    margin: 0 230px;
+}
+
+.product {
+    /* position: relative; */
+    /* max-height: 260px; */
+    background: url(./img/women.png) 50%/cover no-repeat;
+}
+
+.product:nth-child(2) {
+    background-image: url(./img/men.jpeg);
+}
+
+.product:nth-child(3) {
+    background-image: url(./img/kids.png);
+}
+
+.product:nth-child(4) {
+    background-image: url(./img/ACCESORIES.png);
+}
+
+.item4 {
+    grid-column: 1 / 4;
+}
+
+.product-text-wrap {
+    display: flex;
+    /* position: absolute;
+    top: 105px;
+    left: 104px; */
+    flex-direction: column;
+    align-items: center;
+    padding: 105px 0 104px 0;
+}
+
+.product-offer {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product-link {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
 }
