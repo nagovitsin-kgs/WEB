@@ -13,12 +13,10 @@
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: #FFFFFF;
 }
 
 /* убрать подчёркивание, сделать переход */
 a {
-    color: black;
     text-decoration: none;
     transition: .4s;
 }
@@ -34,14 +32,59 @@ img {
     max-height: 100%;
 }
 
-/* button {
+button {
     display: block;
     border: none;
     background-color: transparent;
     cursor: pointer;
     transition: .4s;
-} */
+}
 
+.prt-fet-btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px 39px 14px 39px;
+}
+
+.prt-btn {
+    color: #F26376;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.title-section {
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.title-section-text {
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.title-price__link {
+    color: #000000;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.price-text__link {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    padding-bottom: 16px;
+}
+
+.price_link {
+    color: #F16D7F;
+    font-size: 16px;
+    line-height: 19px;
+}
 
 /* ___class styles___: */
 
@@ -198,11 +241,7 @@ img {
 
 /*product*/
 #product-section {
-    /* padding-top: 65px; */
-    /* padding-right: 230px; */
     padding-bottom: 96px;
-    /* padding-left: 230px; */
-    background: rgb(229, 229, 229);
 }
 
 .product-wrap {
@@ -212,12 +251,15 @@ img {
     gap: 30px;
     justify-content: center;
     margin: 0 230px;
+    padding-top: 48px;
 }
 
 .product {
     /* position: relative; */
     /* max-height: 260px; */
+    /* border: 1px solid chocolate; */
     background: url(./img/women.png) 50%/cover no-repeat;
+
 }
 
 .product:nth-child(2) {
@@ -249,11 +291,57 @@ img {
 .product-offer {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 400;
 }
 
 .product-link {
     color: #F16D7F;
     font-size: 24px;
     font-weight: 700;
+}
+
+/*product-fetured*/
+
+#product-fetured-section {
+    padding-bottom: 70px;
+}
+
+.product-fetured {
+    /* position: relative; */
+    min-height: 581px;
+    /* border: 1px solid chocolate; */
+}
+
+.pr-img {
+    min-height: 420px;
+}
+.product-fetured_img1 {
+    background: url(./img/1_f_i.jpeg) 50%/cover no-repeat;
+}
+.product-fetured_img2 {
+    background: url(./img/2_f_i.png) 50%/cover no-repeat;
+}
+.product-fetured_img3 {
+    background: url(./img/3_f_i.png) 50%/cover no-repeat;
+}
+.product-fetured_img4 {
+    background: url(./img/4_f_i.png) 50%/cover no-repeat;
+}
+.product-fetured_img5 {
+    background: url(./img/5_f-i.png) 50%/cover no-repeat;
+}
+.product-fetured_img6 {
+    background: url(./img/6_f_i.png) 50%/cover no-repeat;
+}
+
+
+
+
+
+.title-and-price {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 16px 24px 16px;
 }
