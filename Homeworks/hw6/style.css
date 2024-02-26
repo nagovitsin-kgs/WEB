@@ -99,6 +99,7 @@ button {
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 10px;
+
 }
 
 /* заголовок */
@@ -167,31 +168,33 @@ button {
 #banner-section {
     position: relative;
     overflow: hidden;
-    /* padding-bottom: 65px; */
+    padding-bottom: 65px;
     background: rgb(241, 228, 230);
+
 }
 
 .banner {
-    display: flex;
     max-width: 800px;
+    display: flex;
     gap: 16px;
-    margin-left: 800px;
-    padding-bottom: 65px;
-    /* border: 1px solid chocolate; */
+    padding: 290px 310px 380px 64px;
+    float: right;
+    
+}
+
+.banner__img-wrap {
+    padding-top: 0.1px;
+    padding-bottom: 2.1px;
+    
 }
 
 .banner-header__img {
-    margin-top: 290px;
-    margin-bottom: 392px;
-    margin-left: 64px;
     width: 12px;
     height: 92px;
 }
 
 .banner-header {
-    margin-top: 290px;
-    max-width: 384px;
-    margin-bottom: 380px;
+    
 }
 
 .b-h__text1 {
@@ -212,20 +215,18 @@ button {
 }
 
 .banner-img-main__photo {
-    /**/
+    padding-bottom: 65px;
+        
 }
 
 /*фото главное, находиться вне контейнера - будем позиционировать относительно этого блока #banner-section*/
 .banner-img-main {
-
-    /* background: rgb(241, 228, 230); */
-    /* border: 1px solid chocolate; */
     position: absolute;
-    width: 42%;
+    width: 41.5%;
     height: 92.8%;
     top: 0;
     right: 0;
-    left: 8.85%;
+    left: 8.5%;
 }
 
 /*чтобы картинку можно было двигать:*/
@@ -235,7 +236,7 @@ button {
     width: 100%;
     height: 100%;
     top: 0;
-    right: 0;
+    right: 3%;
     background: url(./img/banner_Layer.png) 50%/cover no-repeat;
 }
 
@@ -247,19 +248,13 @@ button {
 .product-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: repeat(4, 360px); */
     gap: 30px;
     justify-content: center;
     margin: 0 230px;
-    padding-top: 48px;
 }
 
 .product {
-    /* position: relative; */
-    /* max-height: 260px; */
-    /* border: 1px solid chocolate; */
     background: url(./img/women.png) 50%/cover no-repeat;
-
 }
 
 .product:nth-child(2) {
@@ -303,11 +298,12 @@ button {
 
 #product-fetured-section {
     padding-bottom: 70px;
+    
 }
 
 .product-fetured {
     /* position: relative; */
-    min-height: 581px;
+    /* min-height: 581px; */
     /* border: 1px solid chocolate; */
 }
 
@@ -332,10 +328,6 @@ button {
 .product-fetured_img6 {
     background: url(./img/6_f_i.png) 50%/cover no-repeat;
 }
-
-
-
-
 
 .title-and-price {
     /* position: relative; */
