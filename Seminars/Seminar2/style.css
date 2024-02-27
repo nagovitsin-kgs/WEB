@@ -1,0 +1,10 @@
+h1 {
+    font-size: 50px;
+}
+
+/* Медиазапрос для планшета */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        background: chartreuse;
+    }
+}
