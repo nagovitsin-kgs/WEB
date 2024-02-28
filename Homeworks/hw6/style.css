@@ -306,7 +306,7 @@ button {
 }
 
 .pr-img {
-    min-height: 420px;
+    height: 420px;
 }
 
 .product-fetured_img1 {
@@ -413,7 +413,17 @@ button {
         padding-bottom: 0;
     }
 
+    .product-wrap__fetured {
+        min-height: none;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
 
+    .title-and-price {
+        padding: 23.35px 28.8px 20px 16.46px;
+    }
 
-
+    .prt-fet-btn {
+        margin-top: 32.48px;
+    }
 }
