@@ -269,6 +269,7 @@ button {
 
 .item4 {
     grid-column: 1 / 4;
+
 }
 
 .product-text-wrap {
@@ -426,4 +427,147 @@ button {
     .prt-fet-btn {
         margin-top: 32.48px;
     }
+}
+
+/* Медиазапрос для мобильной версии */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    /* .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    } */
+
+    .header-logo {
+        margin: 18px 0 18px 16px;
+    }
+
+    .nav-main-btn {
+        margin: 26px 240px 20px 0;
+        height: 23px;
+    }
+
+    .nav-main-btn {
+        margin: 25px 16px 26px 0;
+        height: 29px;
+    }
+
+    .nav-main-btn__list {
+        display: flex;
+        gap: 0;
+    }
+
+    .nav-main-btn__link__img1 {
+        padding: 0;
+    }
+
+    .nav-main-btn__link__img2 {
+        display: none;
+    }
+
+    .nav-main-btn__link__img3 {
+        display: none;
+    }
+
+    #banner-section {
+        padding-bottom: 64px;
+    }
+
+    .banner {
+        justify-content: center;
+        gap: 15px;
+        padding: 148px 0 149px 0;
+        float: none;
+
+    }
+
+    .banner__img-wrap {
+        padding-top: 2px;
+        padding-bottom: 3px;
+    }
+
+    .banner-header__img {
+        width: 12px;
+        height: 61px;
+    }
+
+    .b-h__text1 {
+        font-size: 38px;
+    }
+
+    .b-h__text2 {
+        font-size: 20px;
+    }
+
+    .b-h__text3 {
+        font-size: 20px;
+    }
+
+    .banner-img-main {
+        display: none;
+    }
+
+    #product-section {
+        padding-bottom: 64px;
+    }
+
+    .product-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+        margin: 0 16px;
+    }
+
+    .item4 {
+        grid-column: span 1;
+    }
+
+    .product-text-wrap {
+        padding: 0;
+    }
+
+    .product__item1 {
+        padding: 98px 0;
+    }
+
+    .product__item2 {
+        padding: 101.75px 0 76.17px 0;
+    }
+
+    .product__item3 {
+        padding: 105.16px 0 72.04px 0;
+    }
+
+    .product__item4 {
+        padding: 30px 0;
+    }
+
+    .title-section-text {
+        text-align: left;
+    }
+
+    .product-wrap__fetured {
+        padding-top: 64.7px;
+        gap: 16px;
+    }
+
+    .pr-fet-сart__wrap {
+        display: flex;
+        justify-content: center;
+        gap: 11.01px;
+        align-items: center;
+        padding-top: 187.48px;
+        padding-bottom: 187.48px;
+        background: rgba(58, 56, 56, 0.86);
+    }
+
+    .pr-fet-сart__text {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .сart_img {
+        width: 25.92px;
+        height: 23.91px;
+        border: 1px dashed white;
+    }
+    
 }
