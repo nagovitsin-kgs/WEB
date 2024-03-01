@@ -347,7 +347,6 @@ button {
 /*footer*/
 #footer-section {
     background: rgb(229, 229, 229);
-    border: 1px solid chocolate;
 }
 
 .footer-feature-wrap {
@@ -359,15 +358,118 @@ button {
     gap: 30px;
     justify-content: center;
     padding: 104px 0;
+    margin: 0 230px;
+
 }
 
 .feature {
-    padding: 104px 0 104px 230px;
-    border: 1px solid chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 104px 0;
+}
+
+.feature__free__delivery__link {
+    padding-bottom: 28.07px;
+}
+
+.feature__free__delivery__img {
+    width: 44.99px;
+    height: 31.93px;
+}
+
+.feature__free__delivery__header {
+    padding-bottom: 16px;
+}
+
+.feature__free__delivery__header__link {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.feature__free__delivery__text {
+    text-align: center;
+}
+
+.feature__free__delivery__text__link {
+    color: #FBFBFB;
+    font-size: 13.97px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.feature__sales_discounts__link {
+    padding-bottom: 19.07px;
+}
+
+.feature__sales_discounts__img {
+    width: 39.99px;
+    height: 39.92px;
+}
+
+.feature__sales_discounts__header {
+    padding-bottom: 16.01px;
+}
+
+.feature__sales_discounts__header__link {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.feature__sales_discounts__text {
+    text-align: center;
+}
+
+.feature__sales_discounts__text__link {
+    color: #FBFBFB;
+    font-size: 13.97px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.feature__quality_assurance__link {
+    padding-bottom: 25.06px;
+}
+
+.feature__quality_assurance__img {
+    width: 47.02px;
+    height: 34.93px;
+}
+
+.feature__quality_assurance__header {
+    padding-bottom: 16.01px;
+}
+
+.feature__quality_assurance__header__link {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.feature__quality_assurance__text {
+    text-align: center;
+}
+
+.feature__quality_assurance__text__link {
+    color: #FBFBFB;
+    font-size: 13.97px;
+    font-weight: 300;
+    line-height: 17px;
 }
 
 
+
+
+
+
 /* border: 1px solid chocolate; */
+
+
+
+
+
 
 
 
