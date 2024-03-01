@@ -43,13 +43,16 @@ button {
 .prt-fet-btn {
     display: flex;
     justify-content: center;
-    padding: 15px 39px 14px 39px;
+    margin-top: 48.5px;
 }
 
 .prt-btn {
-    color: #F26376;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 19px;
+    padding: 14.5px 38.5px 13.5px 38.5px;
+    border: 1px solid rgb(255, 106, 106);
+    background: rgb(241, 109, 127);
 }
 
 .title-section {
@@ -99,7 +102,6 @@ button {
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 10px;
-
 }
 
 /* заголовок */
@@ -296,8 +298,7 @@ button {
 /*product-fetured*/
 
 #product-fetured-section {
-    padding-bottom: 70px;
-
+    padding-bottom: 95px;
 }
 
 .product-fetured {
@@ -342,6 +343,33 @@ button {
     align-items: flex-start;
     padding: 24px 16px 24px 16px;
 }
+
+/*footer*/
+#footer-section {
+    background: rgb(229, 229, 229);
+    border: 1px solid chocolate;
+}
+
+.footer-feature-wrap {
+    background: rgb(34, 34, 36);
+}
+
+.footer-feature {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 104px 0;
+}
+
+.feature {
+    padding: 104px 0 104px 230px;
+    border: 1px solid chocolate;
+}
+
+
+/* border: 1px solid chocolate; */
+
+
 
 /* Медиазапрос для планшета */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -569,5 +597,5 @@ button {
         height: 23.91px;
         border: 1px dashed white;
     }
-    
+
 }
