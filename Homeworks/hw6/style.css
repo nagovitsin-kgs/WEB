@@ -237,7 +237,7 @@ button {
     height: 100%;
     top: 0;
     right: 3%;
-    background: url(./img/banner_Layer.png) 50%/cover no-repeat;
+    /* background: url(./img/banner_Layer.png) 50%/cover no-repeat; */
 }
 
 /*product*/
