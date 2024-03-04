@@ -149,8 +149,9 @@ button {
 }
 
 .nav-main-btn {
+    position: relative;
     margin: 26px 240px 20px 0;
-    height: 29px;
+    /* height: 29px; */
 }
 
 .nav-main-btn__list {
@@ -159,17 +160,27 @@ button {
 }
 
 .nav-main-btn__item {
-    /**/
+    position: relative;
+    float: left;
 }
 
 .nav-main-btn__link {
-    /**/
 }
 
 .nav-main-btn__link__img1 {
     padding: 4px 0 2px 0;
     width: 32px;
     height: 23px;
+    /* display: block; */
+}
+.nav-main-btn__link__img1:hover {
+    background: orangered;
+}
+
+.menu {
+    /* position: absolute; */
+    /* left: 0; */
+    /* width: 250px; */
 }
 
 .nav-main-btn__link__img2 {
@@ -229,6 +240,35 @@ button {
     font-weight: 700;
 
 }
+
+.menu {
+    max-width: 232px;
+    padding-bottom: 130px;
+    border: 1px solid forestgreen;
+}
+
+.menu-header {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-left: 33px;
+}
+
+.menu-list {
+}
+
+.menu-list-item {
+}
+
+.menu-list-item_item {
+    padding-top: 11px;
+    padding-left: 53.5px;
+}
+
+.menu-list-link {
+    padding-left: 32px;
+}
+
+
 
 .banner-img-main__photo {
     padding-bottom: 65px;
