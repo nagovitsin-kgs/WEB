@@ -17,7 +17,9 @@
 
 /* убрать подчёркивание, сделать переход */
 a {
+    /* display: block; */
     text-decoration: none;
+    cursor: pointer;
     transition: .4s;
 }
 
@@ -115,6 +117,7 @@ button {
 
 /* контейнер */
 .container {
+    position: relative;
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 10px;
@@ -164,8 +167,7 @@ button {
     float: left;
 }
 
-.nav-main-btn__link {
-}
+.nav-main-btn__link {}
 
 .nav-main-btn__link__img1 {
     padding: 4px 0 2px 0;
@@ -173,14 +175,9 @@ button {
     height: 23px;
     /* display: block; */
 }
+
 .nav-main-btn__link__img1:hover {
     background: orangered;
-}
-
-.menu {
-    /* position: absolute; */
-    /* left: 0; */
-    /* width: 250px; */
 }
 
 .nav-main-btn__link__img2 {
@@ -199,7 +196,6 @@ button {
     overflow: hidden;
     padding-bottom: 65px;
     background: rgb(241, 228, 230);
-
 }
 
 .banner {
@@ -241,34 +237,72 @@ button {
 
 }
 
+/*nav .menu*/
 .menu {
+    position: absolute;
+    right: 10px;
     max-width: 232px;
-    padding-bottom: 130px;
     border: 1px solid forestgreen;
+    background: #FFFFFF;
+    box-shadow: 0 5px 10px #000;
 }
 
 .menu-header {
-    padding-top: 32px;
-    padding-bottom: 24px;
-    padding-left: 33px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 32px;
+    margin-right: 143px;
+    margin-bottom: 24px;
+    margin-left: 34px;
+  
 }
 
 .menu-list {
+    padding-bottom: 16px;
 }
 
 .menu-list-item {
-}
-
-.menu-list-item_item {
-    padding-top: 11px;
-    padding-left: 53.5px;
+    margin-bottom: 20px;
 }
 
 .menu-list-link {
-    padding-left: 32px;
+    padding: 5px;
+    color: rgb(241, 109, 127);
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 33px;
 }
 
+.menu-list-link:hover {
+    color: #FFFFFF;
+    transform: scale(1.2);
+    background: #000;
+}
 
+.menu-list__list {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 12px;
+    margin-left: 55px;
+}
+
+.menu-list-item_item {}
+
+.menu-list-link__link {
+    color: rgb(111, 110, 110);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.menu-list-link__link:hover {
+    padding: 5px;
+    color: #FFFFFF;
+    transform: scale(1.2);
+    background: #000;
+}
 
 .banner-img-main__photo {
     padding-bottom: 65px;
@@ -645,6 +679,7 @@ button {
     font-size: 16px;
     line-height: 19px;
 }
+
 /*???????????*/
 .footer-nav-messengers {
     /*есть gap*/
@@ -659,6 +694,7 @@ button {
 .nav-messengers__item1 {
     background: rgb(255, 255, 255);
 }
+
 .nav-messengers__item2 {
     background: rgb(241, 109, 127);
 }
@@ -676,12 +712,15 @@ button {
 .nav-messengers__link__img1 {
     padding: 8px 10.59px 8px 10.93px;
 }
+
 .nav-messengers__link__img2 {
     padding: 9.06px 8.6px 8.06px 7.94px;
 }
+
 .nav-messengers__link__img3 {
     padding: 8px 9.6px 8.2px 9.93px;
 }
+
 .nav-messengers__link__img4 {
     padding: 9.5px 7.61px 9.5px 7.95px;
 }
