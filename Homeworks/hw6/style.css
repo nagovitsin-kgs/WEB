@@ -20,7 +20,7 @@ a {
     /* display: block; */
     text-decoration: none;
     cursor: pointer;
-    transition: .4s;
+    transition: .2s;
 }
 
 /* убрать из маркированного списка точки */
@@ -57,6 +57,11 @@ button {
     background: rgb(241, 109, 127);
 }
 
+.prt-btn:hover {
+    background: #000;
+    transform: scale(1.2);
+}
+
 .subscribe-email__button-wrap {
     position: absolute;
     left: 256px;
@@ -71,6 +76,14 @@ button {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+}
+
+.subscribe-email__button__text:hover {
+    color: #FFFFFF;
+    background: #000;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    transform: scale(1.2);
 }
 
 .title-section {
@@ -93,6 +106,13 @@ button {
     line-height: 16px;
 }
 
+.title-price__link:hover {
+    padding: 5px;
+    color: #FFFFFF;
+    background: #000;
+    transform: scale(1.2);
+}
+
 .price-text__link {
     color: #5D5D5D;
     font-size: 14px;
@@ -101,10 +121,21 @@ button {
     padding-bottom: 16px;
 }
 
+.price-text__link:hover {
+    padding: 5px;
+    color: #FFFFFF;
+    background: #000;
+    transform: scale(1.2);
+}
+
 .price_link {
     color: #F16D7F;
     font-size: 16px;
     line-height: 19px;
+}
+
+.price_link:hover {
+    transform: scale(1.2);
 }
 
 /* ___class styles___: */
@@ -140,6 +171,11 @@ button {
     height: 38px;
 }
 
+.header-logo-link:hover {
+    color: #FFFFFF;
+    transform: scale(1.2);
+}
+
 .header-logo__img {
     width: 44px;
     height: 38px;
@@ -149,6 +185,10 @@ button {
     padding-bottom: 1px;
     width: 26px;
     height: 26.79px;
+}
+
+.header-logo-img__btn:hover {
+    transform: scale(1.2);
 }
 
 .nav-main-btn {
@@ -167,17 +207,18 @@ button {
     float: left;
 }
 
-.nav-main-btn__link {}
+.nav-main-btn__item:hover {
+    transform: scale(1.2);
+}
+
+.nav-main-btn__link {
+}
 
 .nav-main-btn__link__img1 {
     padding: 4px 0 2px 0;
     width: 32px;
     height: 23px;
     /* display: block; */
-}
-
-.nav-main-btn__link__img1:hover {
-    background: orangered;
 }
 
 .nav-main-btn__link__img2 {
@@ -248,15 +289,24 @@ button {
 }
 
 .menu-header {
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 17px;
     margin-top: 32px;
     margin-right: 143px;
     margin-bottom: 24px;
     margin-left: 34px;
-  
+}
+
+.menu-header-link {
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.menu-header-link:hover {
+    color: #FFFFFF;
+    background: #000;
+    
 }
 
 .menu-list {
@@ -374,6 +424,10 @@ button {
     padding: 105px 0 104px 0;
 }
 
+.product-text-wrap:hover {
+    transform: scale(1.2);
+}
+
 .product-offer {
     color: #FFFFFF;
     font-size: 16px;
@@ -392,9 +446,6 @@ button {
 }
 
 .product-fetured {
-    /* position: relative; */
-    /* min-height: 581px; */
-    /* border: 1px solid chocolate; */
 }
 
 .pr-img {
@@ -417,6 +468,10 @@ button {
     padding-top: 187.48px;
     padding-bottom: 187.48px;
     background: rgba(58, 56, 56, 0.86);
+}
+
+.pr-fet-сart:hover {
+    transform: scale(2.3);
 }
 
 .pr-fet-сart__text {
@@ -471,7 +526,6 @@ button {
     justify-content: center;
     /* padding: 104px 0; */
     margin: 0 230px;
-
 }
 
 .feature {
@@ -481,8 +535,16 @@ button {
     padding: 104px 0;
 }
 
+.scale:hover {
+    transform: scale(1.2);
+}
+
 .feature__free__delivery__link {
     padding-bottom: 28.07px;
+}
+
+.feature__free__delivery__link:hover {
+    /* transform: scale(1.2); */
 }
 
 .feature__free__delivery__img {
@@ -492,6 +554,10 @@ button {
 
 .feature__free__delivery__header {
     padding-bottom: 16px;
+}
+
+.feature__free__delivery__header:hover {
+    /* transform: scale(1.2); */
 }
 
 .feature__free__delivery__header__link {
@@ -619,6 +685,13 @@ button {
     text-align: center;
 }
 
+.subscribe__info__text:hover {
+    padding: 20px;
+    color: #FFFFFF;
+    background: #000;
+    transform: scale(1.1);
+}
+
 .subscribe__promotion__header {
     padding-top: 53px;
     padding-bottom: 32px;
@@ -639,7 +712,6 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-right: 97px; */
     margin-bottom: 156px;
 }
 
@@ -652,8 +724,15 @@ button {
     margin-left: 22px;
     padding-top: 7px;
     padding-bottom: 6px;
+    padding-left: 5px;
     font-size: 14px;
     line-height: 17px;
+}
+
+.subscribe-email__text:hover {
+    color: #FFFFFF;
+    background: #000;
+    transform: scale(1.2);
 }
 
 .footer-copyright-wrap {
@@ -678,6 +757,10 @@ button {
     color: rgb(251, 251, 251);
     font-size: 16px;
     line-height: 19px;
+}
+
+.copyright__text:hover {
+    transform: scale(1.3);
 }
 
 /*???????????*/
