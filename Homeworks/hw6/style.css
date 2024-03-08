@@ -697,6 +697,8 @@ button {
     transform: scale(1.1);
 }
 
+#address {}
+
 .subscribe__promotion__header {
     padding-top: 53px;
     padding-bottom: 32px;
