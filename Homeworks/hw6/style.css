@@ -138,15 +138,12 @@ button {
     transform: scale(1.2);
 }
 
-/* ___class styles___: */
-
 /* header */
 #header-section {
     padding: 0;
     background: rgb(241, 228, 230);
 }
 
-/* контейнер */
 .container {
     position: relative;
     max-width: 1600px;
@@ -154,7 +151,6 @@ button {
     padding: 0 10px;
 }
 
-/* заголовок */
 .header {
     background: #222222;
     display: flex;
@@ -194,7 +190,6 @@ button {
 .nav-main-btn {
     position: relative;
     margin: 26px 240px 20px 0;
-    /* height: 29px; */
 }
 
 .nav-main-btn__list {
@@ -218,7 +213,6 @@ button {
     padding: 4px 0 2px 0;
     width: 32px;
     height: 23px;
-    /* display: block; */
 }
 
 .nav-main-btn__link__img2 {
@@ -237,6 +231,15 @@ button {
     overflow: hidden;
     padding-bottom: 65px;
     background: rgb(241, 228, 230);
+}
+
+.visually-hidden {
+    display: none;
+    padding: 10px;
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
 }
 
 .banner {
