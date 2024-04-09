@@ -1,0 +1,48 @@
+@import 'vars';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - $weightSite / 2);
+    padding-right: calc(50% - $weightSite / 2);
+}
+
+#header-section {
+    background-color: $backgroundColorWhite;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {}
+
+.nav-product {
+    background-color: $backgroundColorWhite;
+}
+
+.nav-product-link {}
+
+.nav-product__list {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $colorSelectSiteBlack;
+}
+
+.nav-product__item {}
