@@ -39,15 +39,14 @@ ul li {
   align-items: center;
   flex-wrap: wrap;
 }
-.header__left {
+.header__logo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 13px;
 }
-
-.header__left__brand {
+.header__head {
   padding-top: 20px;
   padding-bottom: 12px;
   font-size: 27px;
@@ -55,70 +54,81 @@ ul li {
   font-weight: 300;
   letter-spacing: 0.025em;
 }
-
-.header__left__brand__color {
+.header__select {
   font-weight: 900;
   color: #f16d7f;
 }
-
-.header__filter-sort {
+.header__sort {
   padding-left: 37px;
   background-color: #cdcdcc;
   background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
   border: 1px solid #e6e6e6;
   border-radius: 3px 0px 0px 3px;
 }
-
-.filter {
+.header__details {
   padding: 14px 26px 14px 15px;
 }
-.filter__summary {
+.header__summary {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
 }
-.filter__text {
+.header__browse {
   font-size: 14px;
   line-height: 32px;
   font-weight: 300;
   letter-spacing: 0.025em;
 }
-.filter__triangle {
+.header__triangle {
   font-weight: 400;
   color: #838383;
 }
-
-.header__input {
+.header__triangle_new {
+  font-family: "Font Awesome";
+  color: #ffffff;
+}
+.header__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
   border: 1px solid #e6e6e6;
   border-radius: 0px 3px 3px 0px;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #a4a4a4;
 }
-
-.input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
+.header__input {
+  font-weight: 300;
 }
-.header__cart {
-  padding: 8px 26px 1px 349px;
+.header__loupe {
+  font-family: "Font Awesome";
+  font-weight: 400;
 }
-
-.header-filter-button {
+.header__shopping {
+  padding: 9px 26px 1px 349px;
+}
+.header__button {
   background-color: #f16d7f;
 }
-
-.filter__button {
+.header__ins {
   padding: 13px 29px 11px 12px;
 }
-
-.filter-summary__button {
+.header__resume {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+.header__account {
+  font-size: 15px;
 }
 
 .nav-product__link {
